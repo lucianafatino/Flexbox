@@ -24,3 +24,19 @@ Flex Container
     - align-content
         - alinha as linhas do container
 
+Flex Item
+-> São elementos filhos diretos do container.
+-> Eles também podem se tornar Flex Container
+-> Suas propriedades relacionadas são:
+    -> flex-grow
+        - define o fator de crescimento
+    -> flex-basis
+        - define o tamanho inicial do item antes da distribuição do espaço restante dentro do container
+    -> flex-shrink
+        - define a capacidade de redução
+    -> flex
+        - abreviação das propriedades anteriores
+    -> order
+        - relacionado a ordem de distribuição e listagem dos itens
+    -> align-self
+        - define o alinhamento de um item específico dentro do container
