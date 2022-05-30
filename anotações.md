@@ -73,3 +73,15 @@
   - Torna uma tag em um elemento do tipo flex container, e assim automaticamente, todos os seus filhos diretos dessa tag tornam-se flex-items.
   - Pode ser aplicado a várias tags como divs, spans, h1, links, etc.
 
+#### Flex Direction
+
+- Propriedade que estabelece o eixo principal do container, definindo assim a direção que os flex items são colocados no flex container.
+
+- Os eixos são dois: 
+  - linha (horizontal)
+    - row (padrão): à direção do texto, da esquerda para direita 
+    - row-reverse: sentido oposto à direção do texto
+  - coluna (vertical)
+    - column: ordenação de cima para baixo, em coluna única
+    - column-reverse: ordenação inversa, de baixo para cima
+
