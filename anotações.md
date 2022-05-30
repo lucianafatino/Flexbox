@@ -5,4 +5,5 @@ O que é?
 em uma interface e recursos de alinhamento.
 
 Flex Container
--> 
+-> É a tag que envolve os elementos e será nela que aplicaremos a propriedade "display: flex".
+-> Esta tag transforma todos os seus itens filhos em flex items.
