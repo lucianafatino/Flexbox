@@ -1,1 +1,1 @@
-Anotações e projeto disponibilizados através do curso "Posicionando elementos com Flexbox em CSS" na plataforma da Digital Innovation One.
+Anotações e projeto disponibilizados através do curso "Posicionando elementos com Flexbox em CSS" na plataforma da Digital Innovation One e com aulas ministradas pela professora Karen Santos.
