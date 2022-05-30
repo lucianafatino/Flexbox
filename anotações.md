@@ -60,3 +60,16 @@
 
   - align-self
     - define o alinhamento de um item específico dentro do container
+
+
+
+# Aula 02 - Fundamentos 
+
+### Flex Container
+
+#### Display Flex
+
+- display: flex;
+  - Torna uma tag em um elemento do tipo flex container, e assim automaticamente, todos os seus filhos diretos dessa tag tornam-se flex-items.
+  - Pode ser aplicado a várias tags como divs, spans, h1, links, etc.
+
