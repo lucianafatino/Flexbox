@@ -92,4 +92,8 @@
 #### nowrap
 
 - Padrão
-- Não permite que
+- Não permite quebra de linha
+
+#### wrap
+
+- permite a quebra de linha assim que um dos flex itens não possam ser mais compactados
