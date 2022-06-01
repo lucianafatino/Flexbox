@@ -88,3 +88,8 @@
 #### Flex Wrap
 
 - Define se os itens devem ou não quebrar linha
+
+#### nowrap
+
+- Padrão
+- Não permite que
