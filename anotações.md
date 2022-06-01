@@ -85,3 +85,6 @@
     - column: ordenação de cima para baixo, em coluna única
     - column-reverse: ordenação inversa, de baixo para cima
 
+#### Flex Wrap
+
+- Define se os itens devem ou não quebrar linha
