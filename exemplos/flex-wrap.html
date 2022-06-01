@@ -6,10 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundamentos - Flex Wrap</title>
     <style>
-        
+        .flex-container{
+            display: flex;
+            height: 150px;
+            border: 2px solid black;
+            max-width: 300px;
+        }
+
+        .item{
+            font-size: 24px;
+            height: 50%;
+            min-width: 100px;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .nowrap{
+            flex-wrap: nowrap;
+        }
+
+        .blue{
+            background-color: blue;
+        }
+
+        .green{
+            background-color: lightgreen;
+        }
+
+        .orange{
+            background-color: orange;
+        }
     </style>
 </head>
 <body>
+    <h1>no wrap</h1>
+    <div class="flex-container nowrap">
+        <div class="item blue">01</div>
+        <div class="item green">02</div>
+        <div class="item orange">03</div>
+    </div>
+
     
+
 </body>
 </html>
