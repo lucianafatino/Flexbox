@@ -10,10 +10,23 @@
             display: flex;
             border: 1px solid black;
             max-width: 500px;
+            margin-bottom: 10px;
         }
 
         .default{
             flex-flow: row nowrap;
+        }
+
+        .wrap{
+            flex-flow: row wrap;
+        }
+
+        .wrap-reverse{
+            flex-flow: row wrap-reverse;
+        }
+
+        .r-nowrap{
+            flex-flow: row-reverse nowrap;
         }
 
         .item{
@@ -28,12 +41,37 @@
     </style>
 </head>
 <body>
-    <div class="flex-container">
-        <dive class="item">1</dive>
-        <dive class="item">2</dive>
-        <dive class="item">3</dive>
-        <dive class="item">4</dive>
-        <dive class="item">5</dive>
+    <h1>Default: row nowrap</h1>
+    <div class="flex-container default">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </div>
+
+    <h1>wrap</h1>
+    <div class="flex-container wrap">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+    </div>
+
+    <h1>wrap reverse</h1>
+    <div class="flex-container wrap-reverse">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
     </div>
 </body>
 </html>
