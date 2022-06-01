@@ -97,3 +97,7 @@
 #### wrap
 
 - permite a quebra de linha assim que um dos flex itens não possam ser mais compactados
+
+#### wrap-reverse
+
+- permite a quebra de linha assim que um dos flex itens não possam ser mais compactados, porém, na direção contrária da linha, e acima.
