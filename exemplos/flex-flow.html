@@ -6,10 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundamentos - Flex Flow</title>
     <style>
-        
+        .flex-container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 500px;
+        }
+
+        .default{
+            flex-flow: row nowrap;
+        }
+
+        .item{
+            background-color: blueviolet;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            width: 100px;
+            height: 50px;
+            line-height: 50px;
+        }
     </style>
 </head>
 <body>
-    
+    <div class="flex-container">
+        <dive class="item">1</dive>
+        <dive class="item">2</dive>
+        <dive class="item">3</dive>
+        <dive class="item">4</dive>
+        <dive class="item">5</dive>
+    </div>
 </body>
 </html>
