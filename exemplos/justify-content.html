@@ -37,9 +37,18 @@
             justify-content: space-between;
         }
 
+        .space-around{
+            justify-content: space-around;
+        }
+
+        .column{
+            flex-flow: column;
+            min-height: 200px;
+        }
     </style>
 </head>
 <body>
+    <h1>Row</h1>
     <h1>flex-start</h1>
     <section class="container flex-start">
         <div class="item">1</div>
@@ -63,6 +72,49 @@
 
     <h1>space-between</h1>
     <section class="container space-between">
+        <div class="item">111</div>
+        <div class="item">222</div>
+        <div class="item">333</div>
+    </section>
+
+    <h1>space-around</h1>
+    <section class="container space-around">
+        <div class="item">111</div>
+        <div class="item">222</div>
+        <div class="item">333</div>
+    </section>
+
+    <h1>Column</h1>
+    <h1>flex-start (column)</h1>
+    <section class="container flex-start column">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </section>
+
+    <h1>flex-end (column)</h1>
+    <section class="container flex-end column">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </section>
+
+    <h1>center (column)</h1>
+    <section class="container center column">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </section>
+
+    <h1>space-between (column)</h1>
+    <section class="container space-between column">
+        <div class="item">111</div>
+        <div class="item">222</div>
+        <div class="item">333</div>
+    </section>
+
+    <h1>space-around (column)</h1>
+    <section class="container space-around column">
         <div class="item">111</div>
         <div class="item">222</div>
         <div class="item">333</div>
