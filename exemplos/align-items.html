@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Items</title>
+    <style>
+        .container{
+            max-width: 350px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item{
+            background-color: blueviolet;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+        }
+
+        .center{
+            align-items: center;
+        }
+
+        .stretch{
+            align-items: stretch;
+        }
+    </style>
+</head>
+<body>
+    <h1>center</h1>
+    <section class="container center">
+        <div class="item">
+            Lorem ipsum dolor sit amet.
+        </div>
+        <div class="item">
+            Lorem, ipsum dolor.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur.
+        </div>
+    </section>
+
+    <h1>stretch</h1>
+    <section class="container stretch">
+        <div class="item">
+            Lorem ipsum dolor sit amet.
+        </div>
+        <div class="item">
+            Lorem, ipsum dolor.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur.
+        </div>
+    </section>
+</body>
+</html>
