@@ -119,3 +119,25 @@
 - center: centraliza 
 - space-between: cria um espaçamento igual entre os elementos
 - space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final
+
+
+
+### Align Items
+
+- Trata do alinhamento dos flex items de acordo com o eixo do container
+- O alinhamento é diferente quand os itens estão em linhas ou colunas
+- Permite o alinhamento central no eixo vertical
+
+#### Tipos de Alinhamentos
+
+- center
+  - alinhamento dos itens ao centro
+- stretch
+  - padrão
+  - os flex items crescem igualmente
+- flex-start
+  - alinhamento ao início
+- flex-end
+  - alinhamento ao final
+- baseline
+  - alinhamento de acordo com a linha base da tipografi
