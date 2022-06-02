@@ -105,3 +105,17 @@
 #### Flex Flow
 
 - É um atalho para as propriedades **flex-direction** e **flex-wrap**
+
+
+
+### Justify Content
+
+- Se encarrega de alinhas os itens dentro do container, de acordo com a direção pretendida e trata da distribuição de espaçamento entre eles.
+
+#### Variações
+
+- flex-start: início do container
+- flex-end: final do container
+- center: centraliza 
+- space-between: cria um espaçamento igual entre os elementos
+- space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final
