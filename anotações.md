@@ -140,4 +140,17 @@
 - flex-end
   - alinhamento ao final
 - baseline
-  - alinhamento de acordo com a linha base da tipografi
+  - alinhamento de acordo com a linha base da tipografia dos itens
+
+
+
+### Align Content
+
+- Responsável por tratar o alinhamento das linhas do container em relação ao eixo vertical do container
+- Precisamos que:
+  - O container utilize quebra de linhas
+  - A altura seja maior que a soma das linhas dos itens
+
+#### Tipos de Alinhamento
+
+- Os mesmos do item Align Items e Justify Content
