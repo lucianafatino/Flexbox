@@ -163,3 +163,13 @@
 
 - Define a proporcionalidade de crescimento dos itens, respeitando o tamanho de seus conteúdos internos
 - Não funciona se colocarmos justify-content no nosso flex-container
+
+### Flex Basis
+
+- Estabelece o tamanho inicial do item antes das distribuições de espaço restante dentro deles, usando como base o conteúdo interno disposto
+
+  #### Valores Possíveis
+
+  - Auto: caso o item não tenha tamanho, este será proporcional ao conteúdo
+  - px, %, em: são valores exatos e previamente definidos
+  - 0: terá relação com a definição do flex-grow
