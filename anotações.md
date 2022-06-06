@@ -154,3 +154,12 @@
 #### Tipos de Alinhamento
 
 - Os mesmos do item Align Items e Justify Content
+
+
+
+# Aula 03 - Fundamentos (Parte 2)
+
+### Flex Grow
+
+- Define a proporcionalidade de crescimento dos itens, respeitando o tamanho de seus conteúdos internos
+- Não funciona se colocarmos justify-content no nosso flex-container
