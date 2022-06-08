@@ -176,4 +176,4 @@
 
 ### Flex Shrink
 
-- 
+- Estabelece a capacidade de redução ou compressão do tamanho de um item
