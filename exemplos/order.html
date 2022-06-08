@@ -10,25 +10,46 @@
             display: flex;
             border: 1px solid black;
             max-width: 350px;
-            margin-bottom: 5px;
+            margin-bottom: 20px;
         }
 
         .items{
+            flex: 1;
             margin: 5px;
-            background-color: orange;
-            color: aliceblue;
+            background-color: paleturquoise;
+            color: purple;
             font-size: 24px;
             text-align: center;
+        }
+
+        .o1{
+            order: 1;
+        }
+
+        .o2{
+            order: 2;
+        }
+
+        .o3{
+            order: 3;
         }
     </style>
 </head>
 <body>
+    <h3>Order: 0</h3>
     <div class="flex-container">
-        <div class="items">A</div>
-        <div class="items">B</div>
-        <div class="items">C</div>
-        <div class="items">D</div>
-        <div class="items">E</div>
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+    </div>
+
+    <h3>Order: mix</h3>
+    <div class="flex-container">
+        <div class="items">1</div>
+        <div class="items o3">2</div>
+        <div class="items">3</div>
+        <div class="items o1">4</div>
     </div>
 </body>
 </html>
