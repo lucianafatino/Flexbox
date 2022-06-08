@@ -173,3 +173,7 @@
   - Auto: caso o item não tenha tamanho, este será proporcional ao conteúdo
   - px, %, em: são valores exatos e previamente definidos
   - 0: terá relação com a definição do flex-grow
+
+### Flex Shrink
+
+- 
