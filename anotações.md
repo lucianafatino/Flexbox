@@ -177,3 +177,7 @@
 ### Flex Shrink
 
 - Estabelece a capacidade de redução ou compressão do tamanho de um item
+
+### Flex
+
+- É um atalho ou abreviação de escrita para as propriedades grow, shrink e basis
