@@ -9,26 +9,44 @@
         .flex-container{
             display: flex;
             border: 1px solid black;
-            max-width: 350px;
+            max-width: 400px;
             margin-bottom: 5px;
         }
 
         .items{
             margin: 5px;
-            background-color: orange;
+            background-color: pink;
             color: aliceblue;
             font-size: 24px;
             text-align: center;
         }
+
+        .flex-1{
+            flex: 1; /* grow: 1, shrink: 1, basis: 0 */
+        }
+
+        .flex-2{
+            flex: 2; /* grow: 1, shrink: 1, basis: 0 */
+        }
     </style>
 </head>
 <body>
+    <h2>Flex: 1</h2>
     <div class="flex-container">
-        <div class="items"></div>
-        <div class="items"></div>
-        <div class="items"></div>
-        <div class="items"></div>
-        <div class="items"></div>
+        <div class="items flex-1">A</div>
+        <div class="items flex-1">BBB</div>
+        <div class="items flex-1">CC</div>
+        <div class="items flex-1">D</div>
+        <div class="items flex-1">EF</div>
+    </div>
+
+    <h2>Flex: 2</h2>
+    <div class="flex-container">
+        <div class="items flex-1">A</div>
+        <div class="items flex-2">BBB</div>
+        <div class="items flex-1">CC</div>
+        <div class="items flex-2">D</div>
+        <div class="items flex-1">EF</div>
     </div>
 </body>
 </html>
