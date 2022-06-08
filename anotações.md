@@ -185,3 +185,12 @@
 ### Align Self
 
 - Estabelece o alinhamento de modo individual sobre um determinado item
+
+  #### Valores Possíveis
+
+  - auto: valor padrão, irá respeitar a definição de align-items do container
+  - flex-start: ao inicio do container
+  - flex-end: ao final do container
+  - center: relativo ao centro de acordo com o eixo
+  - stretch: ocupa todo o espaço relativo
+  - baseline: utiliza a linha base da tipogr
