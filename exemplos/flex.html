@@ -25,8 +25,13 @@
             flex: 1; /* grow: 1, shrink: 1, basis: 0 */
         }
 
+        .largura{
+            width: 200px;
+            /* min-width: 250px; */
+        }
+
         .flex-2{
-            flex: 2; /* grow: 1, shrink: 1, basis: 0 */
+            flex: 2; /* grow: 2, shrink: 1, basis: 0 */
         }
     </style>
 </head>
@@ -40,13 +45,22 @@
         <div class="items flex-1">EF</div>
     </div>
 
-    <h2>Flex: 2</h2>
+    <h2>Flex: mix</h2>
     <div class="flex-container">
         <div class="items flex-1">A</div>
         <div class="items flex-2">BBB</div>
         <div class="items flex-1">CC</div>
         <div class="items flex-2">D</div>
         <div class="items flex-1">EF</div>
+    </div>
+
+    <h2>width ignorado -> basis: 0</h2>
+    <div class="flex-container">
+        <div class="items flex-1 largura">A</div>
+        <div class="items flex-2 largura">BBB</div>
+        <div class="items flex-1 largura">CC</div>
+        <div class="items flex-2 largura">D</div>
+        <div class="items flex-1 largura">EF</div>
     </div>
 </body>
 </html>
