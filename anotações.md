@@ -181,3 +181,7 @@
 ### Flex
 
 - É um atalho ou abreviação de escrita para as propriedades grow, shrink e basis
+
+### Align Self
+
+- Estabelece o alinhamento de modo individual sobre um determinado item
