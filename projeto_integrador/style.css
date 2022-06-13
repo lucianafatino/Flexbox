@@ -166,3 +166,19 @@ header .menu{
     width: 80%;
     margin: auto;
 }
+
+#planos{
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.list-planos{
+    display: flex;
+    align-items: flex-end;
+}
+
+.item-plano{
+    flex: 1;
+    border: 5px solid #122A57;
+    margin-right: 20px;
+}
